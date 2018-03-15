@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.content.Context;
 import android.graphics.Bitmap;

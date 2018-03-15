@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.content.SharedPreferences;
 import android.content.res.Configuration;

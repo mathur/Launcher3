@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,11 +18,11 @@ import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.graphics.ShadowGenerator;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.b;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.c;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.e;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.i;
-import com.google.android.apps.nexuslauncher.utils.ColorManipulation;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.b;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.c;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.e;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.i;
+import com.rmathur.jelly.utils.ColorManipulation;
 
 import java.net.URISyntaxException;
 
@@ -99,10 +99,10 @@ public class SmartspaceCard {
         return s;
     }
 
-    private com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.d cG(final boolean b) {
+    private com.rmathur.jelly.smartspace.nano.SmartspaceProto.d cG(final boolean b) {
         final c ch = this.cH();
         if (ch != null) {
-            com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.d d;
+            com.rmathur.jelly.smartspace.nano.SmartspaceProto.d d;
             if (b) {
                 d = ch.cL;
             } else {
@@ -166,7 +166,7 @@ public class SmartspaceCard {
         return array2;
     }
 
-    private boolean cL(final com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.d d) {
+    private boolean cL(final com.rmathur.jelly.smartspace.nano.SmartspaceProto.d d) {
         boolean b = false;
         if (d != null && d.cN != null && d.cO != null && d.cO.length > 0) {
             b = true;
@@ -179,7 +179,7 @@ public class SmartspaceCard {
     }
 
     private String cO(final boolean b, final String s) {
-        final com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.d cg = this.cG(b);
+        final com.rmathur.jelly.smartspace.nano.SmartspaceProto.d cg = this.cG(b);
         if (cg == null || cg.cN == null) {
             return "";
         }

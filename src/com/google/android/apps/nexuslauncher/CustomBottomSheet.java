@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.app.Fragment;
 import android.app.FragmentManager;

@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.app.AlertDialog;
 import android.content.Context;

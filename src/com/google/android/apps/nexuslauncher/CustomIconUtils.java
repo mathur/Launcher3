@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -21,7 +21,7 @@ import com.android.launcher3.graphics.DrawableFactory;
 import com.android.launcher3.shortcuts.DeepShortcutManager;
 import com.android.launcher3.shortcuts.ShortcutInfoCompat;
 import com.android.launcher3.util.LooperExecutor;
-import com.google.android.apps.nexuslauncher.clock.CustomClock;
+import com.rmathur.jelly.clock.CustomClock;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

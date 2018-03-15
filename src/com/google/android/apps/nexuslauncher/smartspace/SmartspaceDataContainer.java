@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 public class SmartspaceDataContainer {
     SmartspaceCard dO;

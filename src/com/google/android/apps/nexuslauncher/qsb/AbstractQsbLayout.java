@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -31,7 +31,7 @@ import com.android.launcher3.R;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.compat.LauncherAppsCompat;
 import com.android.launcher3.graphics.ShadowGenerator.Builder;
-import com.google.android.apps.nexuslauncher.NexusLauncherActivity;
+import com.rmathur.jelly.NexusLauncherActivity;
 
 public abstract class AbstractQsbLayout extends FrameLayout implements LauncherLayoutChangeListener, OnClickListener, OnSharedPreferenceChangeListener {
     protected final static String GOOGLE_QSB = "com.google.android.googlequicksearchbox";

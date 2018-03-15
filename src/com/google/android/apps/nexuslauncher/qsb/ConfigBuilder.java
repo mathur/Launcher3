@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.app.PendingIntent;
 import android.content.ComponentName;
@@ -26,12 +26,12 @@ import com.android.launcher3.compat.UserManagerCompat;
 import com.android.launcher3.dynamicui.WallpaperColorInfo;
 import com.android.launcher3.util.ComponentKeyMapper;
 import com.android.launcher3.util.Themes;
-import com.google.android.apps.nexuslauncher.NexusLauncherActivity;
-import com.google.android.apps.nexuslauncher.search.AppSearchProvider;
-import com.google.android.apps.nexuslauncher.search.nano.SearchProto.a_search;
-import com.google.android.apps.nexuslauncher.search.nano.SearchProto.b_search;
-import com.google.android.apps.nexuslauncher.search.nano.SearchProto.c_search;
-import com.google.android.apps.nexuslauncher.search.nano.SearchProto.d_search;
+import com.rmathur.jelly.NexusLauncherActivity;
+import com.rmathur.jelly.search.AppSearchProvider;
+import com.rmathur.jelly.search.nano.SearchProto.a_search;
+import com.rmathur.jelly.search.nano.SearchProto.b_search;
+import com.rmathur.jelly.search.nano.SearchProto.c_search;
+import com.rmathur.jelly.search.nano.SearchProto.d_search;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,7 +98,7 @@ public class ConfigBuilder {
         cn.putParcelable(b.ej, appInfo.iconBitmap);
         Uri dm = AppSearchProvider.dm(appInfo, mUserManager);
         b.el = dm.toString();
-        b.ek = new Intent("com.google.android.apps.nexuslauncher.search.APP_LAUNCH", dm.buildUpon().appendQueryParameter("predictionRank", Integer.toString(n)).build()).toUri(0);
+        b.ek = new Intent("com.rmathur.jelly.search.APP_LAUNCH", dm.buildUpon().appendQueryParameter("predictionRank", Integer.toString(n)).build()).toUri(0);
         return b;
     }
 

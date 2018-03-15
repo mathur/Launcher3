@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 public interface ISmartspace {
     void cq();

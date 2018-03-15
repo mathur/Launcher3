@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.search;
+package com.rmathur.jelly.search;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -30,7 +30,7 @@ public class SearchThread implements SearchAlgorithm, Handler.Callback {
     private void dj(SearchResult componentList) {
         Uri uri = new Uri.Builder()
                 .scheme("content")
-                .authority("com.google.android.apps.nexuslauncher.appssearch")
+                .authority("com.rmathur.jelly.appssearch")
                 .appendPath(componentList.mQuery)
                 .build();
 

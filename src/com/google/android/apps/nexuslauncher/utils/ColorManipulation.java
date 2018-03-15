@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.utils;
+package com.rmathur.jelly.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

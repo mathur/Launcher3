@@ -40,7 +40,7 @@ android {
 
     productFlavors {
         aosp {
-            applicationId 'com.google.android.apps.nexuslauncher'
+            applicationId 'com.rmathur.jelly'
             testApplicationId 'com.android.launcher3.tests'
             flavorDimensions 'default'
         }
@@ -130,8 +130,8 @@ protobuf {
                         option "java_package=launcher_log_extension.proto|com.android.launcher3.userevent.nano"
                         option "java_package=launcher_log.proto|com.android.launcher3.userevent.nano"
                         option "java_package=launcher_dump.proto|com.android.launcher3.model.nano"
-                        option "java_package=search.proto|com.google.android.apps.nexuslauncher.search.nano"
-                        option "java_package=smartspace.proto|com.google.android.apps.nexuslauncher.smartspace.nano"
+                        option "java_package=search.proto|com.rmathur.jelly.search.nano"
+                        option "java_package=smartspace.proto|com.rmathur.jelly.smartspace.nano"
                         option "enum_style=java"
                     }
                 }

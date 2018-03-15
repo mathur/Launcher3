@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -13,7 +13,7 @@ import com.android.launcher3.allapps.AlphabeticalAppsList;
 import com.android.launcher3.allapps.search.AllAppsSearchBarController;
 import com.android.launcher3.discovery.AppDiscoveryItem;
 import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.google.android.apps.nexuslauncher.search.SearchThread;
+import com.rmathur.jelly.search.SearchThread;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,9 +20,9 @@ import com.android.launcher3.dynamicui.WallpaperColorInfo;
 import com.android.launcher3.graphics.DrawableFactory;
 import com.android.launcher3.util.ComponentKeyMapper;
 import com.android.launcher3.util.Themes;
-import com.google.android.apps.nexuslauncher.search.ItemInfoUpdateReceiver;
-import com.google.android.apps.nexuslauncher.smartspace.SmartspaceView;
-import com.google.android.apps.nexuslauncher.smartspace.SmartspaceController;
+import com.rmathur.jelly.search.ItemInfoUpdateReceiver;
+import com.rmathur.jelly.smartspace.SmartspaceView;
+import com.rmathur.jelly.smartspace.SmartspaceController;
 import com.google.android.libraries.launcherclient.GoogleNow;
 
 import java.io.FileDescriptor;
@@ -37,7 +37,7 @@ public class NexusLauncher {
     private final LauncherExterns fD;
     private boolean mRunning;
     com.google.android.libraries.launcherclient.GoogleNow fy;
-    com.google.android.apps.nexuslauncher.NexusLauncherOverlay fz;
+    com.rmathur.jelly.NexusLauncherOverlay fz;
     private boolean mStarted;
     private final Bundle mUiInformation = new Bundle();
     private ItemInfoUpdateReceiver mItemInfoUpdateReceiver;
@@ -105,7 +105,7 @@ public class NexusLauncher {
 
         public void onCreate(final Bundle bundle) {
             SharedPreferences prefs = Utilities.getPrefs(fB);
-            fz = new com.google.android.apps.nexuslauncher.NexusLauncherOverlay(fB);
+            fz = new com.rmathur.jelly.NexusLauncherOverlay(fB);
             fy = new com.google.android.libraries.launcherclient.GoogleNow(fB, fz, dZ(prefs));
             fz.setNowConnection(fy);
 

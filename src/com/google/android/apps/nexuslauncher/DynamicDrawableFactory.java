@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,7 +9,7 @@ import com.android.launcher3.ItemInfo;
 import com.android.launcher3.LauncherSettings;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.graphics.DrawableFactory;
-import com.google.android.apps.nexuslauncher.clock.DynamicClock;
+import com.rmathur.jelly.clock.DynamicClock;
 
 public class DynamicDrawableFactory extends DrawableFactory {
     private final DynamicClock mDynamicClockDrawer;

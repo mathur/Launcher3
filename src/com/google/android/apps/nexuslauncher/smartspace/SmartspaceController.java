@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.os.Message;
 import com.android.launcher3.Alarm;
 import com.android.launcher3.LauncherModel;
 import com.android.launcher3.OnAlarmListener;
-import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.i;
-import com.google.android.apps.nexuslauncher.utils.ProtoStore;
+import com.rmathur.jelly.utils.ActionIntentFilter;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.i;
+import com.rmathur.jelly.utils.ProtoStore;
 
 import java.io.PrintWriter;
 import java.util.List;

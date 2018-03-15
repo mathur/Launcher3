@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.search;
+package com.rmathur.jelly.search;
 
 import android.content.ComponentName;
 import android.content.ContentProvider;
@@ -73,7 +73,7 @@ public class AppSearchProvider extends ContentProvider
     }
 
     public static Uri dm(final AppInfo appInfo, final UserManagerCompat userManagerCompat) {
-        return new Uri.Builder().scheme("content").authority("com.google.android.apps.nexuslauncher.appssearch").appendQueryParameter("component", appInfo.componentName.flattenToShortString()).appendQueryParameter("user", Long.toString(userManagerCompat.getSerialNumberForUser(appInfo.user))).build();
+        return new Uri.Builder().scheme("content").authority("com.rmathur.jelly.appssearch").appendQueryParameter("component", appInfo.componentName.flattenToShortString()).appendQueryParameter("user", Long.toString(userManagerCompat.getSerialNumberForUser(appInfo.user))).build();
     }
 
     private Cursor dn(final List list) {
@@ -86,7 +86,7 @@ public class AppSearchProvider extends ContentProvider
             final String string = dm(appInfo, instance).toString();
             final MatrixCursor.RowBuilder row = matrixCursor.newRow();
             final int n2 = n + 1;
-            row.add(n).add(appInfo.title.toString()).add(string).add("com.google.android.apps.nexuslauncher.search.APP_LAUNCH").add(string);
+            row.add(n).add(appInfo.title.toString()).add(string).add("com.rmathur.jelly.search.APP_LAUNCH").add(string);
             n = n2;
         }
         return matrixCursor;

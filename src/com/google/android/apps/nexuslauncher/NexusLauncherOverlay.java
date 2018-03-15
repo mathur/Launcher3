@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import com.android.launcher3.Launcher;
 import com.android.launcher3.Utilities;

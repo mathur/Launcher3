@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.graphics;
+package com.rmathur.jelly.graphics;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;

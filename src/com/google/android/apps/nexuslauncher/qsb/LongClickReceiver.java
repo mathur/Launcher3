@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.content.BroadcastReceiver;
 import android.content.ClipData;
@@ -10,8 +10,8 @@ import android.os.Bundle;
 
 import com.android.launcher3.compat.LauncherAppsCompat;
 import com.android.launcher3.util.ComponentKey;
-import com.google.android.apps.nexuslauncher.NexusLauncherActivity;
-import com.google.android.apps.nexuslauncher.search.AppSearchProvider;
+import com.rmathur.jelly.NexusLauncherActivity;
+import com.rmathur.jelly.search.AppSearchProvider;
 
 import java.lang.ref.WeakReference;
 

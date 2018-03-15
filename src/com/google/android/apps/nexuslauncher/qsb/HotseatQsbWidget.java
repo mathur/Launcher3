@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.qsb;
+package com.rmathur.jelly.qsb;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

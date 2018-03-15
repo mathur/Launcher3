@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher;
+package com.rmathur.jelly;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -15,9 +15,9 @@ import com.android.launcher3.LauncherModel;
 import com.android.launcher3.LauncherSettings;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.util.LooperExecutor;
-import com.google.android.apps.nexuslauncher.clock.CustomClock;
-import com.google.android.apps.nexuslauncher.clock.DynamicClock;
-import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
+import com.rmathur.jelly.clock.CustomClock;
+import com.rmathur.jelly.clock.DynamicClock;
+import com.rmathur.jelly.utils.ActionIntentFilter;
 
 import java.util.HashMap;
 import java.util.Map;

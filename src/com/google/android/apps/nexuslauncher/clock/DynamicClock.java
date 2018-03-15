@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.clock;
+package com.rmathur.jelly.clock;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -21,7 +21,7 @@ import com.android.launcher3.Utilities;
 import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.graphics.IconNormalizer;
 import com.android.launcher3.util.Preconditions;
-import com.google.android.apps.nexuslauncher.utils.ActionIntentFilter;
+import com.rmathur.jelly.utils.ActionIntentFilter;
 
 import java.util.Collections;
 import java.util.Set;
@@ -77,16 +77,16 @@ public class DynamicClock extends BroadcastReceiver
             ApplicationInfo applicationInfo = packageManager.getApplicationInfo("com.google.android.deskclock", PackageManager.GET_META_DATA | PackageManager.GET_UNINSTALLED_PACKAGES);
             Bundle metaData = applicationInfo.metaData;
             if (metaData != null) {
-                int levelPerTickIcon = metaData.getInt("com.google.android.apps.nexuslauncher.LEVEL_PER_TICK_ICON_ROUND", 0);
+                int levelPerTickIcon = metaData.getInt("com.rmathur.jelly.LEVEL_PER_TICK_ICON_ROUND", 0);
                 if (levelPerTickIcon != 0) {
                     Drawable drawableForDensity = packageManager.getResourcesForApplication(applicationInfo).getDrawableForDensity(levelPerTickIcon, iconDpi);
                     layers.mDrawable = drawableForDensity.mutate();
-                    layers.mHourIndex = metaData.getInt("com.google.android.apps.nexuslauncher.HOUR_LAYER_INDEX", -1);
-                    layers.mMinuteIndex = metaData.getInt("com.google.android.apps.nexuslauncher.MINUTE_LAYER_INDEX", -1);
-                    layers.mSecondIndex = metaData.getInt("com.google.android.apps.nexuslauncher.SECOND_LAYER_INDEX", -1);
-                    layers.mDefaultHour = metaData.getInt("com.google.android.apps.nexuslauncher.DEFAULT_HOUR", 0);
-                    layers.mDefaultMinute = metaData.getInt("com.google.android.apps.nexuslauncher.DEFAULT_MINUTE", 0);
-                    layers.mDefaultSecond = metaData.getInt("com.google.android.apps.nexuslauncher.DEFAULT_SECOND", 0);
+                    layers.mHourIndex = metaData.getInt("com.rmathur.jelly.HOUR_LAYER_INDEX", -1);
+                    layers.mMinuteIndex = metaData.getInt("com.rmathur.jelly.MINUTE_LAYER_INDEX", -1);
+                    layers.mSecondIndex = metaData.getInt("com.rmathur.jelly.SECOND_LAYER_INDEX", -1);
+                    layers.mDefaultHour = metaData.getInt("com.rmathur.jelly.DEFAULT_HOUR", 0);
+                    layers.mDefaultMinute = metaData.getInt("com.rmathur.jelly.DEFAULT_MINUTE", 0);
+                    layers.mDefaultSecond = metaData.getInt("com.rmathur.jelly.DEFAULT_SECOND", 0);
                     if (normalizeIcon) {
                         layers.scale = IconNormalizer.getInstance(context).getScale(layers.mDrawable, null, null, null);
                     }

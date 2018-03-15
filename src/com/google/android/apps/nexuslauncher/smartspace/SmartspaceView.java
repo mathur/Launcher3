@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 import android.animation.ValueAnimator;
 import android.content.ActivityNotFoundException;
@@ -33,8 +33,8 @@ import com.android.launcher3.dynamicui.WallpaperColorInfo;
 import com.android.launcher3.popup.PopupContainerWithArrow;
 import com.android.launcher3.popup.SystemShortcut;
 import com.android.launcher3.util.Themes;
-import com.google.android.apps.nexuslauncher.DynamicIconProvider;
-import com.google.android.apps.nexuslauncher.graphics.IcuDateTextView;
+import com.rmathur.jelly.DynamicIconProvider;
+import com.rmathur.jelly.graphics.IcuDateTextView;
 
 import java.util.ArrayList;
 import java.util.Collections;

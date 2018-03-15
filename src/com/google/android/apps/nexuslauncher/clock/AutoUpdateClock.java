@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.clock;
+package com.rmathur.jelly.clock;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

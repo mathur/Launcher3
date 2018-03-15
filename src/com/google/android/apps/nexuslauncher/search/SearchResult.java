@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.search;
+package com.rmathur.jelly.search;
 
 import com.android.launcher3.allapps.search.AllAppsSearchBarController;
 import com.android.launcher3.util.ComponentKey;

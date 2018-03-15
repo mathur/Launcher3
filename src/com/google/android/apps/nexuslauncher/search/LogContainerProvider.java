@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.search;
+package com.rmathur.jelly.search;
 
 import android.content.Context;
 import android.view.View;

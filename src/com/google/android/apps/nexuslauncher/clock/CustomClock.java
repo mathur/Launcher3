@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.clock;
+package com.rmathur.jelly.clock;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;

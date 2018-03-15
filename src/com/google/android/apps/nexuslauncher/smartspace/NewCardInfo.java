@@ -1,4 +1,4 @@
-package com.google.android.apps.nexuslauncher.smartspace;
+package com.rmathur.jelly.smartspace;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import android.util.Log;
 
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.graphics.LauncherIcons;
-import com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.*;
+import com.rmathur.jelly.smartspace.nano.SmartspaceProto.*;
 
 public class NewCardInfo {
     public final b di;
@@ -37,7 +37,7 @@ public class NewCardInfo {
     }
 
     public Bitmap getBitmap(final Context context) {
-        com.google.android.apps.nexuslauncher.smartspace.nano.SmartspaceProto.f fVar = this.di.cx;
+        com.rmathur.jelly.smartspace.nano.SmartspaceProto.f fVar = this.di.cx;
         if (fVar == null) {
             return null;
         }
